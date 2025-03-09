@@ -34,7 +34,7 @@ Generate the RFCs by:
 
 5. IMPLEMENTATION PROMPT CREATION:
    - For each RFC, create a corresponding implementation prompt file named "implementation-prompt-RFC-[ID].md"
-   - Use the template from implementation-prompt-template.md
+   - Use the template from implementation-prompt-template.md, please check codebase for "implementation-prompt-template.md" file.
    - Replace [ID] with the RFC's identifier
    - Replace [Title] with the RFC's title
    - Replace [brief description] with a concise summary of the RFC's purpose
