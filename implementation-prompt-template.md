@@ -18,6 +18,23 @@ This implementation covers RFC-[ID], which focuses on [brief description]. Pleas
 - @RULES.md for project guidelines and standards
 - @RFC-[ID].md for the specific requirements being implemented
 
+## Two-Phase Implementation Approach
+This implementation MUST follow a strict two-phase approach:
+
+### Phase 1: Implementation Planning
+1. Thoroughly analyze the requirements and existing codebase
+2. Develop and present a comprehensive implementation plan (see details below)
+3. DO NOT write any actual code during this phase
+4. Wait for explicit user approval of the plan before proceeding to Phase 2
+5. Address any feedback, modifications, or additional requirements from the user
+
+### Phase 2: Implementation Execution
+1. Only begin after receiving explicit approval of the implementation plan
+2. Follow the approved plan, noting any necessary deviations
+3. Implement in logical segments as outlined in the approved plan
+4. Explain your approach for complex sections
+5. Conduct a self-review before finalizing
+
 ## Implementation Guidelines
 
 ### Before Writing Code
@@ -56,10 +73,15 @@ This implementation covers RFC-[ID], which focuses on [brief description]. Pleas
    - API endpoints or interfaces required
    - Any database changes needed
    - Potential impacts on existing functionality
-2. Wait for user approval before proceeding with implementation
-3. Implement the code in logical segments, explaining your approach for complex sections
-4. Highlight any deviations from the original plan and explain why they were necessary
-5. Conduct a self-review of your implementation before finalizing it
+   - Proposed implementation sequence with logical segments
+   - Any technical decisions or trade-offs being made
+2. IMPORTANT: DO NOT proceed with any coding until receiving explicit user approval of the plan
+3. The user may provide feedback, request modifications, or add requirements to the plan
+4. Only after receiving clear confirmation, proceed with implementation
+5. Implement the code in logical segments as outlined in the approved plan
+6. Explain your approach for complex sections
+7. Highlight any deviations from the original plan and explain why they were necessary
+8. Conduct a self-review of your implementation before finalizing it
 
 ### Problem Solving
 When troubleshooting or making design decisions:
