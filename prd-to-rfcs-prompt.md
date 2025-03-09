@@ -11,6 +11,7 @@ Generate the RFCs by:
    - Ensure each RFC represents a logical, cohesive unit of functionality
    - Balance RFC size - not too small (trivial) or too large (unmanageable)
    - Consider dependencies between features when grouping
+   - Identify shared components or services that multiple features might depend on
 
 2. RFC STRUCTURE:
    - Assign a unique identifier to each RFC (e.g., RFC-001-User-Authentication)
@@ -20,17 +21,39 @@ Generate the RFCs by:
    - Detail technical approach and architecture considerations
    - Identify dependencies on other RFCs
    - Estimate relative complexity (Low, Medium, High)
+   - Include detailed acceptance criteria for each feature
+   - Specify any API contracts or interfaces that will be exposed
+   - Document data models and database schema changes required
+   - Outline state management approach where applicable
+   - Include specific implementation details such as:
+     * Required file structure and organization
+     * Key algorithms or business logic to implement
+     * UI/UX specifications and design patterns to follow
+     * State management approach
+     * API integration details
+     * Database interactions and data flow
+     * Error handling requirements
+     * Testing strategy with specific test cases
+     * Performance considerations and optimization techniques
 
 3. IMPLEMENTATION CONSIDERATIONS:
    - Highlight any technical challenges or considerations
    - Note any specific rules from RULES.md that particularly apply to this RFC
    - Identify potential edge cases or special handling requirements
    - Suggest testing approaches for the functionality
+   - Specify performance expectations and optimization considerations
+   - Address security concerns and required safeguards
+   - Document any third-party dependencies or libraries needed
+   - Outline error handling strategies and fallback mechanisms
+   - Provide guidance on accessibility requirements
+   - Include internationalization/localization considerations
 
 4. PRIORITIZATION:
    - Assign implementation order based on dependencies and priority
    - Identify which RFCs are critical path items
    - Group RFCs into implementation phases if appropriate
+   - Estimate relative effort required for implementation
+   - Highlight any time-sensitive features or market considerations
 
 5. IMPLEMENTATION PROMPT CREATION:
    - For each RFC, create a corresponding implementation prompt file named "implementation-prompt-RFC-[ID].md"
@@ -39,6 +62,7 @@ Generate the RFCs by:
    - Replace [Title] with the RFC's title
    - Replace [brief description] with a concise summary of the RFC's purpose
    - Keep all other template content unchanged
+   - Do not duplicate implementation details in the prompt that are already included in the RFC document
 
 6. RFCS.MD CREATION:
    - Create a master RFCS.md file that lists all RFCs with their IDs, titles, and brief descriptions
@@ -46,6 +70,28 @@ Generate the RFCs by:
    - Provide a suggested implementation order
    - Group RFCs into phases if the project is large
 
+7. TECHNICAL SPECIFICATIONS:
+   - For each RFC, provide detailed technical specifications including:
+     * Component architecture diagrams (described textually)
+     * Data flow diagrams (described textually)
+     * API endpoints with request/response formats
+     * Database schema changes with field definitions
+     * State management patterns
+     * Authentication and authorization requirements
+     * Caching strategies where applicable
+     * Specific algorithms or business logic pseudocode
+     * Error codes and handling mechanisms
+     * Logging and monitoring requirements
+
+8. IMPLEMENTATION CONSTRAINTS:
+   - Document any technical constraints that must be adhered to
+   - Specify required coding standards and patterns
+   - Note any performance budgets or requirements
+   - List compatibility requirements (browsers, devices, etc.)
+   - Identify any regulatory or compliance considerations
+
 First, provide a brief overview of how you've approached breaking down the project. Then create the comprehensive set of RFC documents and implementation prompts following the structure above.
 
 Ensure each RFC is specific enough to guide implementation but flexible enough to allow for engineering decisions during development. Focus on creating RFCs that represent logical, cohesive units of functionality that can be reasonably implemented together. 
+
+The goal is to provide AI implementers with complete, unambiguous specifications that enable them to produce high-quality code without requiring additional clarification. 
