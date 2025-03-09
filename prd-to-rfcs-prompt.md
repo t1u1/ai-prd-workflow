@@ -57,12 +57,17 @@ Generate the RFCs by:
 
 5. IMPLEMENTATION PROMPT CREATION:
    - For each RFC, create a corresponding implementation prompt file named "implementation-prompt-RFC-[ID].md"
-   - Use the template from implementation-prompt-template.md, please check codebase for "implementation-prompt-template.md" file.
-   - Replace [ID] with the RFC's identifier
-   - Replace [Title] with the RFC's title
-   - Replace [brief description] with a concise summary of the RFC's purpose
-   - Keep all other template content unchanged
-   - Do not duplicate implementation details in the prompt that are already included in the RFC document
+   - IMPORTANT: You MUST copy the EXACT content from implementation-prompt-template.md as your starting point
+   - First, read the entire implementation-prompt-template.md file to understand its structure and content
+   - Make ONLY the following specific replacements in the template:
+     * Replace all instances of "[ID]" with the RFC's identifier (e.g., "001")
+     * Replace all instances of "[Title]" with the RFC's title (e.g., "User Authentication")
+     * Replace all instances of "[brief description]" with a concise summary of the RFC's purpose
+   - DO NOT modify, remove, or add any other content from the template
+   - DO NOT change any section headings, formatting, or structure
+   - DO NOT duplicate implementation details in the prompt that are already included in the RFC document
+   - Verify that each implementation prompt maintains the exact same sections and instructions as the template
+   - Double-check that all placeholders have been properly replaced before finalizing
 
 6. RFCS.MD CREATION:
    - Create a master RFCS.md file that lists all RFCs with their IDs, titles, and brief descriptions
