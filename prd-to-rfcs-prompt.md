@@ -4,7 +4,7 @@ Create a set of well-structured RFC documents that divide the project into logic
 
 If any critical information is missing or unclear in the provided documents that prevents thorough RFC creation, ask specific questions to gather the necessary details before proceeding.
 
-Generate the RFCs files under RFCs folder by:
+Generate the RFCs files under RFCs folder including PROMPT CREATION md files by:
 
 1. IMPLEMENTATION ORDER ANALYSIS:
    - Analyze the entire project to determine the optimal implementation sequence
