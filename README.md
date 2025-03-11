@@ -7,6 +7,7 @@ A collection of reusable AI prompts to streamline your product development workf
 
 ## Available Prompts
 
+- [**Interactive PRD Creation**](interactive-prd-creation-prompt.md) - Create a PRD through a guided step-by-step questioning process
 - [**PRD Comprehensive Verification**](prd-comprehensive-verification-prompt.md) - Verify and improve your PRD by identifying critical gaps and quality issues
 - [**PRD to Features Extraction**](prd-to-features-prompt.md) - Extract and organize features from your PRD
 - [**PRD to Rules**](prd-to-rules-prompt.md) - Generate technical guidelines and standards for development
@@ -17,11 +18,12 @@ A collection of reusable AI prompts to streamline your product development workf
 ## Recommended Workflow
 
 ### Initial Development
-1. **Verify PRD** - Identify critical gaps and improve quality using the Comprehensive Verification prompt
-2. **Extract Features** - Transform your verified PRD into organized features with priorities and acceptance criteria
-3. **Create Rules** - Establish technical guidelines and standards based on your PRD and features
-4. **Generate RFCs** - Break down the project into logical, manageable implementation units
-5. **Implement RFCs** - Use the implementation template for each RFC to guide development
+1. **Create PRD** - Start with a vague idea and develop it into a complete PRD using the Interactive Creation prompt
+2. **Verify PRD** - Identify critical gaps and improve quality using the Comprehensive Verification prompt
+3. **Extract Features** - Transform your verified PRD into organized features with priorities and acceptance criteria
+4. **Create Rules** - Establish technical guidelines and standards based on your PRD and features
+5. **Generate RFCs** - Break down the project into logical, manageable implementation units
+6. **Implement RFCs** - Use the implementation template for each RFC to guide development
 
 ### Managing Changes
 When new requirements or changes arise during development:
@@ -31,10 +33,28 @@ When new requirements or changes arise during development:
 
 ## How to Use
 
-1. Copy the entire prompt from the desired prompt file
-2. Paste into your AI assistant (Cursor, ChatGPT, Claude, etc.)
-3. Attach your PRD or relevant documents
-4. Let the AI process your request
+### Method 1: Manual Copy
+1. Open the desired prompt file
+2. Copy the entire contents
+3. Paste into your AI assistant (Cursor, ChatGPT, Claude, etc.)
+4. Attach your PRD or relevant documents
+5. Let the AI process your request
+
+### Method 2: Using the Copy Script
+For convenience, you can use the included script to copy a prompt to your clipboard:
+
+```bash
+# Make the script executable (first time only)
+chmod +x copy-prompt.sh
+
+# Copy a prompt to clipboard
+./copy-prompt.sh interactive-prd-creation-prompt.md
+
+# See available prompts
+./copy-prompt.sh
+```
+
+Then paste the prompt into your AI assistant and proceed as normal.
 
 ## Quick Tips
 
