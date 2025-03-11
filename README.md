@@ -1,13 +1,46 @@
 # PRD Workflow Tools
 
+<div align="center">
+  <img src="https://img.shields.io/badge/PRD-Workflow-blue?style=for-the-badge&logo=github" alt="PRD Workflow" width="200"/>
+  <h3>AI-Powered Product Development</h3>
+</div>
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
 A collection of reusable AI prompts to streamline your product development workflow. These prompts can be copied and pasted into any AI assistant (like Cursor) to automate common tasks in your product development process.
 
+> [!TIP]
+> **Why PRD & RFC Driven Development?** This approach significantly improves AI collaboration by providing clear boundaries, reducing hallucinations, and ensuring consistent understanding between humans and AI. [Jump to full benefits](#benefits-of-prd--rfc-driven-development)
+
+## Table of Contents
+- [Benefits of PRD & RFC Driven Development](#benefits-of-prd--rfc-driven-development)
+- [Available Prompts](#available-prompts)
+- [Recommended Workflow](#recommended-workflow)
+- [How to Use](#how-to-use)
+- [Quick Tips](#quick-tips)
+- [License](#license)
+
 ## Benefits of PRD & RFC Driven Development
 
 Following a structured PRD & RFC driven development approach offers significant advantages, especially when collaborating with AI tools:
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">🤖</td>
+      <td align="center">⚙️</td>
+      <td align="center">💼</td>
+      <td align="center">🧠</td>
+    </tr>
+    <tr>
+      <td align="center"><b>Enhanced AI<br>Collaboration</b></td>
+      <td align="center"><b>Improved<br>Development</b></td>
+      <td align="center"><b>Business<br>Benefits</b></td>
+      <td align="center"><b>AI-Specific<br>Advantages</b></td>
+    </tr>
+  </table>
+</div>
 
 ### Enhanced AI Collaboration
 - **Clearer Instructions**: Well-defined PRDs and RFCs provide AI with precise context and requirements, resulting in more accurate implementations
@@ -45,6 +78,15 @@ By following this methodology, you'll experience more productive AI collaboratio
 - [**PRD Change Management**](prd-change-management-prompt.md) - Manage changes to your PRD during development
 
 ## Recommended Workflow
+
+<div align="center">
+  <pre>
+  ┌─────────────┐     ┌─────────────┐     ┌─────────────┐     ┌─────────────┐     ┌─────────────┐     ┌─────────────┐
+  │    Create   │     │   Verify    │     │   Extract   │     │    Create   │     │   Generate  │     │  Implement  │
+  │     PRD     │────▶│     PRD     │────▶│   Features  │────▶│    Rules    │────▶│    RFCs     │────▶│    RFCs     │
+  └─────────────┘     └─────────────┘     └─────────────┘     └─────────────┘     └─────────────┘     └─────────────┘
+  </pre>
+</div>
 
 ### Initial Development
 1. **Create PRD** - Start with a vague idea and develop it into a complete PRD using the Interactive Creation prompt
