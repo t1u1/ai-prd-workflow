@@ -5,6 +5,35 @@
 
 A collection of reusable AI prompts to streamline your product development workflow. These prompts can be copied and pasted into any AI assistant (like Cursor) to automate common tasks in your product development process.
 
+## Benefits of PRD & RFC Driven Development
+
+Following a structured PRD & RFC driven development approach offers significant advantages, especially when collaborating with AI tools:
+
+### Enhanced AI Collaboration
+- **Clearer Instructions**: Well-defined PRDs and RFCs provide AI with precise context and requirements, resulting in more accurate implementations
+- **Reduced Hallucinations**: Structured documentation minimizes AI's tendency to "fill in the gaps" with incorrect assumptions
+- **Consistent Mental Model**: Both humans and AI work from the same documented understanding, reducing misalignment
+
+### Improved Development Process
+- **Boundary Setting**: Clearly defined scope prevents AI from implementing unwanted or out-of-scope features
+- **Incremental Verification**: Breaking work into RFCs allows for validation at each step rather than only at project completion
+- **Traceability**: Each implementation can be traced back to specific requirements, making it easier to verify correctness
+- **Reduced Rework**: Clear specifications from the start minimize the need for major revisions later
+
+### Business Benefits
+- **Predictable Outcomes**: Structured approach leads to more predictable development timelines and results
+- **Knowledge Preservation**: Documentation serves as a persistent reference even as team members or AI tools change
+- **Stakeholder Alignment**: PRDs create a shared understanding between business, technical teams, and AI assistants
+- **Faster Onboarding**: New team members or AI tools can quickly understand project goals and constraints
+
+### AI-Specific Advantages
+- **Context Window Optimization**: Breaking large projects into focused RFCs helps AI work within context window limitations
+- **Targeted Expertise**: Different aspects of the project can be directed to specialized AI models or prompts
+- **Iterative Refinement**: AI can suggest improvements to PRDs and RFCs before implementation begins
+- **Quality Control**: Structured documentation provides clear criteria for AI to self-evaluate its outputs
+
+By following this methodology, you'll experience more productive AI collaboration, higher quality implementations, and a smoother overall development process.
+
 ## Available Prompts
 
 - [**Interactive PRD Creation**](interactive-prd-creation-prompt.md) - Create a PRD through a guided step-by-step questioning process
