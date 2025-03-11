@@ -60,7 +60,7 @@ Once you feel you have gathered sufficient details, create a structured PRD that
 After gathering sufficient information, you MUST:
 
 1. Create a complete PRD document based on the information provided
-2. Save the PRD as a markdown file named "product-requirements-document.md" in the current directory
+2. Save the PRD as a markdown file named "PRD.md" in the current directory
 3. Ensure the PRD is logically structured and concise so stakeholders can readily understand the product's vision and requirements
 
 Use markdown formatting for readability, including:
