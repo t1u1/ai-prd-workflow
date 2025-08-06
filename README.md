@@ -74,7 +74,6 @@ By following this methodology, you'll experience more productive AI collaboratio
 - [**PRD to Features Extraction**](prd-to-features-prompt.md) - Extract and organize features from your PRD
 - [**PRD to Rules**](prd-to-rules-prompt.md) - Generate technical guidelines and standards for development
 - [**PRD to RFCs**](prd-to-rfcs-prompt.md) - Break down your PRD into manageable implementation units
-- [**Implementation Template**](implementation-prompt-template.md) - Template for implementing individual RFCs
 - [**PRD Change Management**](prd-change-management-prompt.md) - Manage changes to your PRD during development
 
 ## Recommended Workflow
@@ -94,7 +93,7 @@ By following this methodology, you'll experience more productive AI collaboratio
 3. **Extract Features** - Transform your verified PRD into organized features with priorities and acceptance criteria
 4. **Create Rules** - Establish technical guidelines and standards based on your PRD and features
 5. **Generate RFCs** - Break down the project into logical, manageable implementation units
-6. **Implement RFCs** - Use the implementation template for each RFC to guide development
+6. **Implement RFCs** - Implement each RFC sequentially to build the application
 
 ### Managing Changes
 When new requirements or changes arise during development:

@@ -65,22 +65,7 @@ Generate the RFCs files under RFCs folder including PROMPT CREATION md files by:
    - Explain how this RFC fits into the overall sequential implementation plan
    - Describe how this RFC builds upon the functionality implemented in previous RFCs
 
-5. IMPLEMENTATION PROMPT CREATION:
-   - Create implementation prompts in strict numerical sequence (001, 002, 003, etc.)
-   - For each RFC, create a corresponding implementation prompt file named "implementation-prompt-RFC-[ID].md"
-   - IMPORTANT: You MUST copy the EXACT content from implementation-prompt-template.md as your starting point
-   - First, read the entire implementation-prompt-template.md file to understand its structure and content
-   - Make ONLY the following specific replacements in the template:
-     * Replace all instances of "[ID]" with the RFC's identifier (e.g., "001")
-     * Replace all instances of "[Title]" with the RFC's title (e.g., "User Authentication")
-     * Replace all instances of "[brief description]" with a concise summary of the RFC's purpose
-   - DO NOT modify, remove, or add any other content from the template
-   - DO NOT change any section headings, formatting, or structure
-   - DO NOT duplicate implementation details in the prompt that are already included in the RFC document
-   - Verify that each implementation prompt maintains the exact same sections and instructions as the template
-   - Double-check that all placeholders have been properly replaced before finalizing
-
-6. RFCS.MD CREATION:
+5. RFCS.MD CREATION:
    - Create a master RFCS.md file that lists all RFCs in their strict numerical implementation order
    - Include a dependency graph or table showing relationships between RFCs
    - Provide a clear, sequential implementation roadmap
@@ -89,7 +74,7 @@ Generate the RFCs files under RFCs folder including PROMPT CREATION md files by:
    - For each RFC, indicate which future RFCs will build upon it
    - Make it clear that implementation will proceed strictly in the numbered sequence
 
-7. TECHNICAL SPECIFICATIONS:
+6. TECHNICAL SPECIFICATIONS:
    - For each RFC, provide detailed technical specifications including:
      * Component architecture diagrams (described textually)
      * Data flow diagrams (described textually)
@@ -104,7 +89,7 @@ Generate the RFCs files under RFCs folder including PROMPT CREATION md files by:
    - Explain how each technical specification builds upon or extends the implementations from previous RFCs
    - Ensure specifications account for the sequential implementation order
 
-8. IMPLEMENTATION CONSTRAINTS:
+7. IMPLEMENTATION CONSTRAINTS:
    - Document any technical constraints that must be adhered to
    - Specify required coding standards and patterns
    - Note any performance budgets or requirements
