@@ -98,7 +98,7 @@ Generate the RFCs files under RFCs folder including PROMPT CREATION md files by:
    - Highlight constraints that affect the sequential implementation order
    - Ensure constraints are addressed in the appropriate sequence
 
-First, provide a brief overview of how you've approached breaking down the project, with special emphasis on the sequential implementation order you've determined. Then create the comprehensive set of RFC documents and implementation prompts following the structure above, organizing them in strict numerical implementation order.
+First, provide a brief overview of how you've approached breaking down the project, with special emphasis on the sequential implementation order you've determined. Then create the comprehensive set of RFC documents following the structure above, organizing them in strict numerical implementation order.
 
 Ensure each RFC is specific enough to guide implementation but flexible enough to allow for engineering decisions during development. Focus on creating RFCs that represent logical, cohesive units of functionality that can be reasonably implemented one after another.
 
