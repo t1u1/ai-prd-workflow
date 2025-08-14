@@ -67,7 +67,6 @@ Use markdown formatting for readability, including:
 - Clear section headings
 - Bulleted lists for requirements
 - Tables for comparative information
-- Bold text for emphasis on key points
 - Numbered lists for prioritized items or sequential steps
 
 Begin by introducing yourself and asking your first batch of questions about my product idea. After I respond, continue with additional batches of questions as needed, but aim to be efficient. Once you have sufficient information, create and save the PRD file. 
